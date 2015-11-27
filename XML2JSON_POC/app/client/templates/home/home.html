@@ -1,0 +1,104 @@
+<template name="Home">
+  <div class="home">
+    <h1>XML to JSON Parsing POC</h1>
+    <br>
+    <h2> Customer Information </h2>
+    <table class="XMLPayload">
+    {{#with CustomerInformtion}}
+	    	<tr>
+				<th>CIFProxyID</th>
+				<td>{{CIFProxyID}}</td>
+	    	</tr>
+	    	<tr>
+				<th>CustomerStatus</th>
+				<td>{{CustomerStatus}}</td>
+	    	</tr>
+	    	<tr>
+				<th>CustomerSince</th>
+				<td>{{CustomerSince}}</td>
+	    	</tr>
+	    	<tr>
+				<th>Title</th>
+				<td>{{Title}}</td>
+	    	</tr>
+	    	<tr>
+				<th>FirstName</th>
+				<td>{{FirstName}}</td>
+	    	</tr>
+	    	<tr>
+				<th>LastName</th>
+				<td>{{LastName}}</td>
+	    	</tr>
+	    	<tr>
+				<th>CustomerDOB</th>
+				<td>{{CustomerDOB}}</td>
+	    	</tr>
+	    	<tr>
+				<th>MartialStatus</th>
+				<td>{{MartialStatus}}</td>
+	    	</tr>
+	    	<tr>
+				<th>DependentCount</th>
+				<td>{{DependentCount}}</td>
+	    	</tr>
+	    	<tr>
+				<th>DependentCountAsofDate</th>
+				<td>{{DependentCountAsofDate}}</td>
+	    	</tr>
+	    	<tr>
+				<th>IncomeAmount</th>
+				<td>{{IncomeAmount}}</td>
+	    	</tr>
+	    	<tr>
+				<th>IncomeLastUpdateDate</th>
+				<td>{{IncomeLastUpdateDate}}</td>
+	    	</tr>
+	    	<tr>
+				<th>EmploymentStatus</th>
+				<td>{{EmploymentStatus}}</td>
+	    	</tr>
+	    	<tr>
+				<th>LanguagePreference</th>
+				<td>{{LanguagePreference}}</td>
+	    	</tr>
+	    	<tr>
+				<th>EligibleProdHoldings</th>
+				<td>{{EligibleProdHoldings}}</td>
+	    	</tr>
+	    {{/with}}
+    </table>
+    <h2> Agent Information </h2>
+    <table class="XMLPayload">
+    	{{#with AgentInformtion}}
+	    	<tr>
+				<th>AgentID</th>
+				<td>{{AgentID}}</td>
+	    	</tr>
+	    	<tr>
+				<th>AgentTransit</th>
+				<td>{{AgentTransit}}</td>
+	    	</tr>
+	    	<tr>
+				<th>AgentLanguage</th>
+				<td>{{AgentLanguage}}</td>
+	    	</tr>
+	    	<tr>
+				<th>AgentName</th>
+				<td>{{AgentName}}</td>
+	    	</tr>
+	    	<tr>
+				<th>AgentJobTitle</th>
+				<td>{{AgentJobTitle}}</td>
+	    	</tr>
+	    	<tr>
+				<th>AgentEmail</th>
+				<td>{{AgentEmail}}</td>
+	    	</tr>    
+	    	<tr>
+				<th>AgentPhone</th>
+				<td>{{AgentPhone}}</td>
+	    	</tr>
+	    {{/with}}
+    </table>
+  </div>
+</template>

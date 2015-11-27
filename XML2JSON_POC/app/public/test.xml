@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Payload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CustomerInformation>
+		<CIFProxyID />
+		<CustomerStatus>ActiveCustomer</CustomerStatus>
+		<CustomerSince>10/Jul/2015</CustomerSince>
+		<Title>Mr</Title>
+		<FirstName>COLOMBE</FirstName>
+		<LastName>JONES</LastName>
+		<CustomerDOB>03/Dec/1945</CustomerDOB>
+		<MartialStatus>Separated</MartialStatus>
+		<DependentCount>12</DependentCount>
+		<DependentCountAsofDate>26/Sep/1975</DependentCountAsofDate>
+		<IncomeAmount>1000000</IncomeAmount>
+		<IncomeLastUpdateDate>21/Oct/2015</IncomeLastUpdateDate>
+		<EmploymentStatus>Fulltime</EmploymentStatus>
+		<LanguagePreference>En</LanguagePreference>
+		<EligibleProdHoldings/>
+	</CustomerInformation>	
+	<AgentInformation>
+		<AgentID>tdura01</AgentID>
+		<AgentTransit>01242</AgentTransit>
+		<AgentLanguage>En</AgentLanguage>
+		<AgentName>THIYAGARAJAN DURAISAMY</AgentName>
+		<AgentJobTitle>FSM</AgentJobTitle>
+		<AgentEmail />
+		<AgentPhone>9056771205</AgentPhone>
+	</AgentInformation>
+</Payload>
